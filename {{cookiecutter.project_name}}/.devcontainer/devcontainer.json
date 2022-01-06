@@ -3,7 +3,7 @@
 {
 	"name": "Python 3",
 	"build": {
-		"dockerfile": "../docker/Dockerfile",
+		"dockerfile": "Dockerfile",
 		"context": "..",
 	},
 	"postCreateCommand": "poetry install",
