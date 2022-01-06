@@ -8,8 +8,6 @@ packages = [{include = "{{cookiecutter.project_slug}}"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 typer = "^0.4.0"
-pytest-xdist = "^2.5.0"
-pytest-cov = "^3.0.0"
 
 [tool.poetry.dev-dependencies]
 black = {extras = ["jupyter"], version = "^21.12b0"}
@@ -21,6 +19,9 @@ flake8 = "^4.0.1"
 mkdocs = "^1.2.3"
 mkdocs-material = "^8.1.4"
 pre-commit = "^2.16.0"
+pytest-cov = "^3.0.0"
+nox = "^2021.10.1"
+nox-poetry = "^0.9.0"
 
 
 [build-system]
