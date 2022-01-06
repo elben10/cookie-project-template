@@ -13,9 +13,9 @@ MINIMAL_CODE_COVERAGE = 70
 nox.options.sessions = (
     "Check Code Format",
     "Import Checking",
-    "Unit Tests",
-    "Type Checking",
     "Lint Checking",
+    "Type Checking",
+    "Unit Tests",
 )
 
 
