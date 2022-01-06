@@ -3,7 +3,7 @@ from pathlib import Path
 
 from nox_poetry import Session, session
 
-CODE_DIRECTORIES = ["src/{{cookiecutter.project_name}}", "tests"]
+CODE_DIRECTORIES = ["src/project", "tests"]
 CODE_DIRECTORIES_WITH_NOTEBOOKS = CODE_DIRECTORIES + ["notebooks"]
 PYTHON_VERSIONS = ("3.8",)
 DEFAULT_PYTHON_VERSION = "3.8"

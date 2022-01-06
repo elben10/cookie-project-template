@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "project"
+version = "0.1.0"
+description = "A project description"
+authors = ["Jakob Jul Elben <jelben@deloitte.dk>"]
+packages = [{from = "src", include = "project"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = "^0.4.0"
+pytest-xdist = "^2.5.0"
+
+[tool.poetry.dev-dependencies]
+black = {extras = ["jupyter"], version = "^21.12b0"}
+coverage = {extras = ["toml"], version = "^6.2"}
+pytest = "^6.2.5"
+mypy = "^0.930"
+isort = "^5.10.1"
+pytest-xdist = {extras = ["psutil"], version = "^2.5.0"}
+flake8 = "^4.0.1"
+mkdocs = "^1.2.3"
+mkdocs-material = "^8.1.4"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
